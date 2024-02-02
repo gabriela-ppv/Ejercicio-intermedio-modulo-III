@@ -1,1 +1,26 @@
 @import'core/reset.scss';
+
+
+
+
+// .listcountries{
+// display: flex;
+// flex-direction: row;
+// flex-wrap: wrap;
+// gap: 10px;
+// }
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  
+}
+li{
+    border: 1px solid aqua;
+    text-align: center;
+}
+
+.countries{
+    width: 100px;
+    height: 100px;
+}

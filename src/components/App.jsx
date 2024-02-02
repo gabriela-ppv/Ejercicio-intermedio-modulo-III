@@ -6,7 +6,7 @@ function App(){
   
   return(
 
-    <div>
+    <div className="listcountries">
     <h1>Country Info App</h1>
     <ListCountries countries ={countries}/>
     </div>

@@ -1,9 +1,17 @@
+import Country from "./Country"
 
-function ListCountries (){
+function ListCountries ({countries}){
 
+    const mapeoCountries=()=>{
+        return countries.map((countr,i)=><li key={i}> <Country datacountrie={countr}/> </li>)
+
+    }
   
     return(
-      <h1></h1>
+
+     <ul>
+      {mapeoCountries()}
+     </ul>
     )
     
   

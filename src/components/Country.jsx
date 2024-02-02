@@ -1,9 +1,17 @@
 
-function Country(){
+function Country({datacountrie}){
 
   
     return(
-      <h1>Hola Mundo</h1>
+     <article className="countries">
+      <h3>{datacountrie.name.common}</h3>
+       <p>{datacountrie.capital}</p> 
+       <p>{datacountrie.flag}</p>
+
+      
+
+
+     </article>
     )
     
   
